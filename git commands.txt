@@ -1,0 +1,31 @@
+1.firstly go with git init command to create .git folder to perform valid operations
+1. git config —global user.name “” - to set username
+2. git config —global user.email “”-to set email
+    1. git config —list- to get the username with email
+3. git —version -check git version
+4. git status-show status of folder
+5. clear-to simply clear the screen
+6. touch (file name.extension)-to create a file with required extension
+7. git add fileName.extension-to get the file to staged condition
+8. start fileName.extension-to open file and edit it
+9. commit -m “message”-for commiting the changes
+10. git diff-to get what changes we have done
+11. git diff —staged-to get the info of changes done to file
+12. git show-to show the object
+13. git log -p -2 -to show the last two commits done
+14. git rm fileName.extension-to delete the file from the project
+15. git rm —cached fileName.text -to remove file from staging area
+16. git branch branchName- to create a new branch
+17. git branch —list-to show all branches 
+18. git checkout branchName-to move or switch to given branch
+19. git branch -d-to delete the branch but you need to be in other branch to delete the given branch
+20. git branch -b branchName-to create and move to that branch
+21. git merge branchName-to merge the clone repo to desired repo
+22. git reset -to reset the file data and that file will come to staged condition
+23. git rm -f fileName.extension-to remove file from staging area
+24. git checkout fileName.extension-to undo unwanted data
+25. git clone-to get clone of central repo project(pulling it using the url )
+26. git remote 
+git branch -M main
+git push -u origin main
+git log --all --decorate --oneline --graph
